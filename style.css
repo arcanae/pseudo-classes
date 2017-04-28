@@ -1,0 +1,86 @@
+body {
+    background-image: url("../stripe.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    list-style-type: none;
+    display :flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#menu>li {
+    color: red;
+    width: 200px;
+}
+
+#menu>li>ul>li {
+    display: none;
+}
+
+#menu>li:hover>ul>li {
+    display: block;
+}
+
+#menu>li:hover {
+    color: blue;
+}
+
+#menu>li>ul>li>ul>li {
+    display: none;
+}
+
+#menu>li>ul>li:hover {
+    color: green;
+}
+
+#menu>li>ul>li:hover>ul>li {
+    display: block;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#menu>li>ul>li>ul>li>ul>li {
+    display: none;
+}
+
+#menu>li>ul>li>ul>li:hover {
+    color: purple;
+}
+
+#menu>li>ul>li>ul>li:hover>ul>li {
+    display: block;
+}
+
+#menu>li>ul>li>ul>li>ul>li>ul>li {
+    display: none;
+}
+
+#menu>li>ul>li>ul>li>ul>li:hover {
+    color: pink;
+}
+
+#menu>li>ul>li>ul>li>ul>li:hover>ul>li {
+    display: block;
+}
+
+#menu>li>ul>li>ul>li>ul>li>ul>li>ul>li {
+    display: none;
+}
+
+#menu>li>ul>li>ul>li>ul>li>ul>li:hover {
+    color: orange;
+}
+
+#menu>li>ul>li>ul>li>ul>li>ul>li:hover>ul>li {
+    display: block;
+}
+
+#menu>li>ul>li>ul>li>ul>li>ul>li>ul>li:hover {
+    color: brown;
+}
